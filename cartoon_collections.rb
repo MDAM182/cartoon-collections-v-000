@@ -23,6 +23,5 @@ def find_the_cheese(cheddar_cheese)
 if cheddar_cheese.include?(cheddar)
  true
 else
-  true
-
+  false
 end
