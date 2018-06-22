@@ -5,8 +5,8 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-    veggies.map do |calls|
-    "#{calls}.capitalize !"
+    veggies.co do |calls|
+    calls.capitalize !"
     end
 end
 
