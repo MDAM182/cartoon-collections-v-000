@@ -20,9 +20,9 @@ end
 
 def find_the_cheese(cheddar_cheese)
 
-if cheddar_cheese.include?(cheddar)
- true
-else
-  false
-end
+  if cheddar_cheese.include?(cheddar)
+    true
+  else
+    false
+  end
 end
