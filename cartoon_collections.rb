@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(veggies)
     veggies.map do |calls|
-    calls.split(/ |\_/).map(&:capitalize).join(" ")
+    calls.split(/ |\_/)(&:capitalize).join(" ")
     end
 end
 
