@@ -19,5 +19,5 @@ def long_planeteer_calls(calls_long)
 end
 
 def find_the_cheese(cheddar_cheese)
-cheddar_cheese.index { |x| x == "cheddar" } 
+cheddar_cheese.index { |cheese| cheese == "cheddar" } 
 end
