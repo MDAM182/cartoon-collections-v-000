@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-    veggies.collect do |calls|
+    veggies.map do |calls|
     veggies.split(/ |\_/).map(&:capitalize).join(" ")
     end
 end
