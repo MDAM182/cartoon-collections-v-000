@@ -21,3 +21,4 @@ end
 def find_the_cheese(cheddar_cheese)
 cheddar_cheese.include?("cheddar")index { |cheese| cheese == "cheddar" } 
 end
+end
