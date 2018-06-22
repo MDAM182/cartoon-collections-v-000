@@ -4,8 +4,11 @@ def roll_call_dwarves(dwarves)
     end
 end
 
-def summon_captain_planet(veggies)# code an argument here
-  # Your code here
+def summon_captain_planet(veggies)
+    veggies.collect do |calls|
+    veggies.split(/ |\_/).map(&:capitalize).join(" ")
+    end
+end
 end
 
 def long_planeteer_calls# code an argument here
